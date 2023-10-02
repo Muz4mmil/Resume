@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 20px;
+
+    font-family: 'PT Sans', sans-serif;
+}
+
+.container{
+    width: 1000px;
+    border: 1px solid grey;
+    display: flex;
+}
+
+.side-left{
+    background: rgb(232, 230, 255);
+    width: 33%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.side-left img{
+    width: 150px;
+    margin: 20px auto;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+.contact{
+    /* display: flex;
+    flex-direction: column; */
+}
+
+.heading{
+    margin: 20px 0;
+    margin-top: 30px;
+    font-size: 30px;
+    border-bottom: 2px solid #000;
+}
+
+.contact p{
+    margin: 10px 0;
+}
+
+.socials{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.socials a{
+    color: #000;
+    text-decoration: none;
+}
+
+.skill-level{
+    display: flex;
+    width: 100%;
+    border: 1px solid #000;
+    margin-bottom: 20px;
+    margin-top: 4px;
+}
+.solid-bar{
+    height: 6px;
+    width: 20%;
+    background: gray;
+}
+
+.side-right{
+    padding: 40px;
+}
+
+.side-right h1{
+    font-size: 48px;
+}
+.side-right h2{
+    margin: 10px 0;
+}
+
+.side-right ul{
+    margin-left: 50px;
+}
+.side-right .experience{
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+
+.experience p{
+    font-weight: bold;
+    margin: 6px 0;
+}
+
+.experience .job{
+    font-size: 20px;
+}
+
+.experience p span{
+    font-weight: normal;
+    font-style: italic;
+}
+
+.project{
+    margin-bottom: 20px;
+}
+
+.project-title{
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+}
+
+.project p{
+    font-weight: bold;
+    margin: 6px 0;
+}
+
+.education{
+    margin-bottom: 10px;
+}
+.education .school{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.education p{
+    font-weight: bold;
+}
+
+.education p span{
+    font-weight: normal;
+    font-style: italic;
+}
+
+.course{
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+}
+
+.courses p{
+    margin-bottom: 20px;
+}
